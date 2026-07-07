@@ -3175,3 +3175,58 @@ header img{
     content:none !important;
     display:none !important;
 }
+
+/*==================================================
+        REDES SOCIALES EN MÓVIL
+==================================================*/
+
+.mobile-social{
+    display:none;
+}
+
+@media(max-width:900px){
+
+    .mobile-social{
+        display:flex;
+        align-items:center;
+        gap:18px;
+        margin-left:auto;
+        margin-right:18px;
+    }
+
+    .mobile-social a{
+        color:white;
+        font-size:1.25rem;
+        width:36px;
+        height:36px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        background:rgba(255,255,255,.12);
+        transition:.3s;
+    }
+
+    .mobile-social a:hover{
+        background:var(--color-principal);
+        transform:translateY(-3px);
+    }
+
+    .menu-toggle{
+        margin-left:0;
+    }
+}
+
+@media(max-width:480px){
+
+    .mobile-social{
+        gap:10px;
+        margin-right:12px;
+    }
+
+    .mobile-social a{
+        width:32px;
+        height:32px;
+        font-size:1rem;
+    }
+}
