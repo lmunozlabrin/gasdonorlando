@@ -1,0 +1,8 @@
+# =====================================
+# Robots.txt - Gas Don Orlando
+# =====================================
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lmunozlabrin.github.io/gasdonorlando/sitemap.xml
